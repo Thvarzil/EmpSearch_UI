@@ -10,7 +10,7 @@ $("#search_submit").on("click", function(){
 
     $.ajax({
         type: 'GET',
-        url: "api/EmployeeSearch",
+        url: "http://localhost:5000/api/EmpSearch?searchTerm=Item1",
         data: {},
         contentType: "application/json; charset=utf8",
         dataType: "json",
